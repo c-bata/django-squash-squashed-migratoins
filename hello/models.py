@@ -6,3 +6,4 @@ class Question(models.Model):
     choice1 = models.CharField(max_length=20, default='')
     choice2 = models.CharField(max_length=20, default='')
     choice3 = models.CharField(max_length=20, default='')
+    choice4 = models.CharField(max_length=20, default='')
